@@ -10,7 +10,7 @@ const Login = () => {
 
   const handleLogin = async () => {
     try {
-      const response = await axios.post('http://localhost:5000/login', { username: username, password: password }).then(navigate('/main'))
+      const response = await axios.post('https://qr-code-app-4rpn.vercel.app/login', { username: username, password: password }).then(navigate('/main'))
       const { token } = response.data;
       console.log(token);
     } catch (error) {
