@@ -7,4 +7,4 @@ const qrCodeSchema = new mongoose.Schema({
   }
 });
 
-module.exports = mongoose.model("QR-code-data", qrCodeSchema);
+module.exports = mongoose.model("qr-code-data", qrCodeSchema);
