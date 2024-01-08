@@ -11,4 +11,4 @@ const loginSchema = new mongoose.Schema({
   }
 });
 
-module.exports = mongoose.model("QR-code-user-data", loginSchema);
+module.exports = mongoose.model("qr-code-user-data", loginSchema);
