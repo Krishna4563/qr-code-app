@@ -16,7 +16,7 @@ const MainPage = () => {
       setGeneratedQRCode(qrValue);
 
       // Send the QR code value to the backend and save it
-      await Axios.post('https://qr-code-app-4rpn.vercel.app/qrcodes', { content: qrValue })
+      await Axios.post('https://qr-code-app-server.vercel.app/qrcodes', { content: qrValue })
         .then((response) => {
           console.log(response.data);
         })
