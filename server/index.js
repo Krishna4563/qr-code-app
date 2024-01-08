@@ -19,7 +19,7 @@ mongoose.connect(process.env.DATABASE, { useNewUrlParser: true, useUnifiedTopolo
 
 app.use(cors({
   origin: ["https://qr-code-app-five.vercel.app"],
-  methods: ["POST"],
+  methods: ["POST", "GET", "PUT", "DELETE"],
   credentials: true
 }));
 
