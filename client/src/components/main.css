@@ -22,6 +22,7 @@
 
 .title {
   font-weight: bold;
+  margin-bottom: 2rem;
 }
 
 p {
@@ -62,5 +63,6 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 2rem;
 }
 
